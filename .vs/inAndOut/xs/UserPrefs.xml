@@ -2,49 +2,54 @@
   <MonoDevelop.Ide.ItemProperties.inAndOut PreferredExecutionTarget="/Applications/Opera.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="inAndOut/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="inAndOut/Controllers/ItemController.cs" Line="38" Column="1" />
-      <File FileName="inAndOut/Models/Expence.cs" Line="16" Column="40" />
-      <File FileName="inAndOut/Controllers/ExpenseController.cs" Line="26" Column="10" />
-      <File FileName="inAndOut/Models/Item.cs" Line="1" Column="1" />
-      <File FileName="inAndOut/Migrations/ApplicationDbContextModelSnapshot.cs" Line="52" Column="49" />
-      <File FileName="inAndOut/Data/ApplicationDbContext.cs" Line="16" Column="6" />
-      <File FileName="inAndOut/Migrations/20220216021036_AddExpensesToDataBase.cs" Line="1" Column="1" />
-      <File FileName="inAndOut/Views/Expense/Index.cshtml" Line="37" Column="75" />
-      <File FileName="inAndOut/Views/Expense/Create.cshtml" Line="26" Column="37" />
-      <File FileName="inAndOut/Views/Shared/_Layout.cshtml" Line="26" Column="30" />
-      <File FileName="inAndOut/Views/Expense/Delete.cshtml" Line="12" Column="34" />
-      <File FileName="inAndOut/Views/Expense/Update.cshtml" Line="6" Column="52" />
-      <File FileName="inAndOut/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="inAndOut/Models/Book.cs" Line="14" Column="2" />
+      <File FileName="inAndOut/Program.cs" />
+      <File FileName="inAndOut/appsettings.json" />
+      <File FileName="inAndOut/Data/ApplicationDbContext.cs" />
+      <File FileName="inAndOut/Startup.cs" />
+      <File FileName="inAndOut/Migrations/20220218224210_addBookToDataBase.cs" />
+      <File FileName="inAndOut/Views/Expense/Index.cshtml" />
+      <File FileName="inAndOut/Views/Book/Index.cshtml" />
+      <File FileName="inAndOut/Controllers/ExpenseController.cs" />
+      <File FileName="inAndOut/Controllers/BookController.cs" />
+      <File FileName="inAndOut/Views/Shared/_Layout.cshtml" Line="9" Column="18" />
+      <File FileName="inAndOut/Views/Book/Create.cshtml" />
+      <File FileName="inAndOut/Views/Expense/Create.cshtml" />
+      <File FileName="inAndOut/Views/Book/Update.cshtml" />
+      <File FileName="inAndOut/Views/Book/Delete.cshtml" />
+      <File FileName="inAndOut/Views/Expense/Delete.cshtml" />
+      <File FileName="inAndOut/Views/Expense/Update.cshtml" />
+      <File FileName="inAndOut/Views/Shared/_Notification.cshtml" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="inAndOut" expanded="True">
             <Node name="inAndOut" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Appointment" expanded="True" />
+                <Node name="Book" expanded="True" />
                 <Node name="Expense" expanded="True" />
                 <Node name="Shared" expanded="True">
                   <Node name="_Layout.cshtml" selected="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="lib" expanded="True">
-                  <Node name="bootstrap" expanded="True">
-                    <Node name="dist" expanded="True">
-                      <Node name="css" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True" />
               </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

@@ -14,6 +14,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="ManagePackageSource" Version="0.1.0.12" />
+    <PackageReference Include="toastr" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,11 +26,29 @@
     <None Remove="ManagePackageSource" />
     <None Remove="Views\Item\" />
     <None Remove="Views\Item %28copy%29\" />
+    <None Remove="Views\Book\" />
+    <None Remove="toastr" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Appointment\" />
     <Folder Include="Data\" />
     <Folder Include="Views\Item\" />
     <Folder Include="Views\Expense\" />
+    <Folder Include="Views\Book\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\lib\jquery\dist\jquery.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\jquery\dist\jquery.js">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

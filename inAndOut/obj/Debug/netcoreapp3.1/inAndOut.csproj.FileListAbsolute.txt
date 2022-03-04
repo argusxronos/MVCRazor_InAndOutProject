@@ -388,3 +388,9 @@
 /Users/jonas/Projects/inAndOut/inAndOut/obj/Debug/netcoreapp3.1/Razor/Views/Expense/Index.cshtml.g.cs
 /Users/jonas/Projects/inAndOut/inAndOut/obj/Debug/netcoreapp3.1/Razor/Views/Expense/Delete.cshtml.g.cs
 /Users/jonas/Projects/inAndOut/inAndOut/obj/Debug/netcoreapp3.1/Razor/Views/Expense/Update.cshtml.g.cs
+/Users/jonas/Projects/inAndOut/inAndOut/obj/Debug/netcoreapp3.1/Razor/Views/Book/Index.cshtml.g.cs
+/Users/jonas/Projects/inAndOut/inAndOut/obj/Debug/netcoreapp3.1/Razor/Views/Book/Create.cshtml.g.cs
+/Users/jonas/Projects/inAndOut/inAndOut/obj/Debug/netcoreapp3.1/Razor/Views/Book/Delete.cshtml.g.cs
+/Users/jonas/Projects/inAndOut/inAndOut/obj/Debug/netcoreapp3.1/Razor/Views/Book/Update.cshtml.g.cs
+/Users/jonas/Projects/inAndOut/inAndOut/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Notification.cshtml.g.cs
+/Users/jonas/Projects/inAndOut/inAndOut/bin/Debug/netcoreapp3.1/wwwroot/lib/jquery/dist/jquery.js

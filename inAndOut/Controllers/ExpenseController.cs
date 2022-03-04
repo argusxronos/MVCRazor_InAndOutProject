@@ -79,7 +79,7 @@ namespace inAndOut.Controllers
 
         }
 
-        // Get-Delete
+        // Get-Update
         public IActionResult Update(int? id)
         {
             if (id == null || id == 0)
@@ -94,7 +94,7 @@ namespace inAndOut.Controllers
             return View(obj);
 
         }
-        // POST-Delete
+        // POST-Update
         [HttpPost]
         [AutoValidateAntiforgeryToken]
         public IActionResult Update(Expense obj)

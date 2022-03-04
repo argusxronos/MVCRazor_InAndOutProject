@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RRGOd3Rt5TGA3zp16ViVacdBy4PzdrSefUDF7E7q+rUmppzGiQAxulMC9JyQQnfeBUVTTVFytWQ6Fp/mT1CdYA==",
+  "dgSpecHash": "tai98CLYyBhI+ypXkI+/NnBmjn8A7ZABZq8MNKt8cFsIH4rJ18hmdUDoxhqCw7FUVmEwFXDi4V71lwtOLLHAIQ==",
   "success": true,
   "projectFilePath": "/Users/jonas/Projects/inAndOut/inAndOut/inAndOut.csproj",
   "expectedPackageFiles": [
     "/Users/jonas/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/jonas/.nuget/packages/jquery/1.6.3/jquery.1.6.3.nupkg.sha512",
     "/Users/jonas/.nuget/packages/managepackagesource/0.1.0.12/managepackagesource.0.1.0.12.nupkg.sha512",
     "/Users/jonas/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/3.1.22/microsoft.aspnetcore.mvc.razor.extensions.3.1.22.nupkg.sha512",
     "/Users/jonas/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/3.1.22/microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.22.nupkg.sha512",
@@ -113,7 +114,8 @@
     "/Users/jonas/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/jonas/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/jonas/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/jonas/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "/Users/jonas/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "/Users/jonas/.nuget/packages/toastr/2.1.1/toastr.2.1.1.nupkg.sha512"
   ],
   "logs": []
 }

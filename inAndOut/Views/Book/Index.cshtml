@@ -1,0 +1,46 @@
+﻿@model IEnumerable<inAndOut.Models.Book>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Book List</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a asp-controller="Book" asp-action="Create" class="btn btn-primary">Create New Book</a>
+        </div>
+    </div>
+    <br />
+    @if (Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        Book Name
+                    </th>
+                    <th>
+                        Author
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                    <tr>
+                        <td width="35%">@book.Name</td>
+                        <td width="35%">@book.Author</td>
+                        <td width="30%">
+                            <div class="w-100 btn-group" role="group">
+                                <a asp-controller="Book" asp-action="Update" asp-route-Id="@book.Id" class="btn btn-primary mx-1">Update</a>
+                                <a asp-controller="Book" asp-action="Delete" asp-route-Id="@book.Id" class="btn btn-danger mx-1">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
